@@ -98,6 +98,6 @@ Include screenshots or add links to:
 ### 📢 Credits
 
 * Dataset by [Patrick B](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) on Kaggle
-* Analysis & Documentation by **\[P.v.Dinesh]**
+* Analysis & Documentation by **P.V.Dinesh**
 
 
