@@ -1,62 +1,103 @@
-# ipl_data_analysis
+## 📊 IPL Match Stats Explorer (2008–2020)
 
-# IPL Data Analysis (No-Code Project) 🏏📊
+A complete data analysis project based on the **IPL Complete Dataset (2008–2020)**. This project explores batting and bowling performance trends such as **strike rate**, **economy rate**, **toss vs win relationship**, and **player performance insights**, all done **without using Python** — using **MS Excel** for data cleaning, pivot tables, and visualisations.
 
-This project presents insights from IPL (Indian Premier League) data using **non-programming tools** such as Excel/Google Sheets, charts, pivot tables, and manual analysis techniques.
+---
 
-## 🧩 Project Type
+### 📁 Dataset Source
 
-- **No-code data analysis project**
-- Conducted without Python or other programming languages
-- Tools used: Excel / Google Sheets / Tableau / Power BI *(specify your tools)*
+* **Kaggle**: [IPL Complete Dataset 2008–2020](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+* Files used:
 
-## 🎯 Objective
+  * `matches.csv`
+  * `deliveries.csv`
 
-- To derive insights from IPL match data across different seasons.
-- Explore trends such as team performance, player stats, toss analysis, and more.
-- Create visual reports to understand match-winning factors.
+---
 
-## 📌 Tools & Methods Used
+### ✅ Project Objectives
 
-- **Excel / Google Sheets**
-  - Pivot Tables
-  - Conditional Formatting
-  - Charts & Graphs
-- *(Or Power BI / Tableau if used)*
-- Manual data wrangling and summarization
+1. 📌 **Analyze team win rates**
+2. 🏏 **Player performance tracking**
+3. 🎯 **Strike Rate & Economy Rate calculations**
+4. 🧠 **Insights on Toss vs Match Outcome**
+5. 📈 **Visualise patterns using Pivot Charts and Graphs**
 
-## 📊 Key Insights
+---
 
-- Which team wins the most matches after winning the toss?
-- Top-performing players (most runs, wickets)
-- Venue-based performance
-- Toss vs Match-Winner correlation
-- Season-wise performance trends
+### 📊 Key KPIs Calculated
 
-## 🗂️ Project Files
+#### 🔹 **Strike Rate (Batsmen)**
 
-ipl-no-code-analysis/
-│
-├── IPL_Analysis_Report.pdf # Final report with insights & graphs
-├── IPL_Raw_Data.xlsx # Dataset used
-├── IPL_Charts.xlsx # Chart-based insights
-├── README.md
-└── LICENSE
+> **Formula:** `(Total Runs / Balls Faced) * 100`
+> Extras like wide balls are excluded.
+
+#### 🔹 **Economy Rate (Bowlers)**
+
+> **Formula:** `(Total Runs Conceded / Legal Deliveries) * 6`
+> Only legal deliveries are counted (excluding wides and no-balls).
+
+#### 🔹 **Toss Impact**
+
+* Compared toss winners and match winners
+* Analysed how often toss-winning teams also win the match
+
+---
+
+### 📌 Tools Used
+
+* 📄 **Excel**
+* 📊 **Pivot Tables & Pivot Charts**
+* 📉 **Bar, Line, and Pie Charts**
+* 📚 **Dataset from Kaggle**
+
+---
+
+### 📷 Sample Visualisations
+
+Include screenshots or add links to:
+
+* ✅ Top batsmen by strike rate
+* ✅ Top bowlers by economy
+* ✅ Win rate comparison
+* ✅ Toss vs Match outcome bar chart
+
+---
+
+### 🧠 Insights Discovered
+
+* Certain teams win the toss but lose more often.
+* Players like \[insert name] maintain consistently high strike rates across seasons.
+* Bowlers with the best economy often aren't the highest wicket-takers.
+
+---
+
+### 📂 Folder Structure (If Uploaded)
+
+```
+/IPL-Match-Stats-Explorer
+├── matches.csv
+├── deliveries.csv
+├── IPL_Analysis.xlsx        # Final working file with pivot tables
+├── Visualisations/
+│   ├── strike_rate_chart.png
+│   ├── economy_rate_chart.png
+│   ├── toss_vs_win.png
+└── README.md
+```
+
+---
+
+### 🏁 How to View This Project
+
+1. Open `IPL_Analysis.xlsx` using Excel or upload to Google Sheets.
+2. Check different sheets for analysis: Batting, Bowling, Toss Analysis.
+3. View all Pivot Charts and Graphs for visual insights.
+
+---
+
+### 📢 Credits
+
+* Dataset by [Patrick B](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) on Kaggle
+* Analysis & Documentation by **\[P.v.Dinesh]**
 
 
-## 📎 How to View the Project
-
-1. Open `IPL_Analysis_Report.pdf` or `IPL_Charts.xlsx` for full analysis.
-2. Raw dataset is in `IPL_Raw_Data.xlsx`.
-3. Insights are based on historical match data (up to year XXXX).
-
-## 🧑‍💻 Author
-
-- **P.V. Dinesh**
-- 3rd Year ECE Student
-- Project done as part of data exploration practice without programming.
-- [LinkedIn](https://www.linkedin.com/in/your-profile)
-
-## 📄 License
-
-Licensed under MIT License.
