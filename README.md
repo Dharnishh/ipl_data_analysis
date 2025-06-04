@@ -1,12 +1,12 @@
-## 📊 IPL Match Stats Explorer (2008–2020)
+## 📊 IPL Match Stats Explorer (2008–2019)
 
-A complete data analysis project based on the **IPL Complete Dataset (2008–2020)**. This project explores batting and bowling performance trends such as **strike rate**, **economy rate**, **toss vs win relationship**, and **player performance insights**, all done **without using Python** — using **MS Excel** for data cleaning, pivot tables, and visualisations.
+A complete data analysis project based on the **IPL Complete Dataset (2008–2019)**. This project explores batting and bowling performance trends such as **strike rate**, **economy rate**, **toss vs win relationship**, and **player performance insights**, all done **without using Python** — using **MS Excel** for data cleaning, pivot tables, and visualisations.
 
 ---
 
 ### 📁 Dataset Source
 
-* **Kaggle**: [IPL Complete Dataset 2008–2020](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+* **Kaggle**: [IPL Complete Dataset 2008–2019](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082019)
 * Files used:
 
   * `matches.csv`
@@ -97,7 +97,7 @@ Include screenshots or add links to:
 
 ### 📢 Credits
 
-* Dataset by [Patrick B](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) on Kaggle
+* Dataset by [Patrick B](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082019) on Kaggle
 * Analysis & Documentation by **P.V.Dinesh**
 
 
